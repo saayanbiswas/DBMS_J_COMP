@@ -1,0 +1,116 @@
+
+
+.card .card-body .card-text .description
+{
+    color: #7f7f7f;
+}
+.card .card-body .price
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 56px;
+  }
+  
+  /* Control the left side */
+  .left 
+  {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://images.unsplash.com/photo-1534766438357-2b270dbd1b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  }
+  .splitFormL
+  {
+    height: 100%;
+    width: 45%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 56px;
+  }
+  .splitFormR
+  {
+    height: 100%;
+    width: 55%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 56px;
+    
+  }
+
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlv9oOk3BVEUorqTVjeRkCtHbQnyCia92oVw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+#formId
+{
+  width: 100%;
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.form-control 
+{
+  background-color: black;
+  width: 250%;
+  border-bottom: 3px solid white;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+form
+{
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.loginForm
+{
+  margin-top: 150px;
+  margin-right: 85px;
+}
+
+.singUplink
+{
+  color: rgb(124, 221, 221);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+span
+{
+    color: white;
+}
+
+
+
+
+

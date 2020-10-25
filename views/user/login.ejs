@@ -1,0 +1,31 @@
+<%- include("../partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+
+<div class="split left">
+    <div class="centered">
+    </div>
+  </div>
+  
+  <div class="split right">
+    <div class="loginForm">
+        <div class="row" style="margin-left:35%;">
+            <div class="col-md-4 col-md-offset">
+                <form action="/user/login" method="post">
+                    <div class="form-group">
+                        <label for="email">Username</label>
+                        <input class="form-control" type="text" name="username" id="username" placeholder="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" type="password" name="password" id="password" placeholder="password">
+                    </div>
+                    <button class="btn btn-warning">Log in</button>
+                </form>
+                <span>New User? <a class="singUplink" href="/user/signup">Signup</a></span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<%- include("../partials/footer") %>

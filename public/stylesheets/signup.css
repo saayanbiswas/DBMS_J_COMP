@@ -1,0 +1,35 @@
+body
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlv9oOk3BVEUorqTVjeRkCtHbQnyCia92oVw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.signup-form-group
+{
+  width: 40%;
+}
+
+.btn
+{
+    margin-left: 30%;
+    margin-top: 100px;
+    width: 50%;
+    margin-bottom: 42px;
+}
+
+.form-control 
+{
+  background-color: black;
+  width: 250%;
+  border-bottom: 3px solid white;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+label
+{
+  color: white;
+}
