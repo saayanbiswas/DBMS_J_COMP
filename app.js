@@ -270,7 +270,7 @@ function notLoggedIn(req,res,next){
     res.redirect("/");
 }
 function isLoggedInAndIsOwner(req,res,next){
-    if((req.isAuthenticated()) &&(req.user.username == "mrinalseth") )
+    if((req.isAuthenticated()) &&(req.user.username == "owner") )
     {
         return next();
     }
